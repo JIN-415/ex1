@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;400&display=swap');
+
+*{
+    font-size: 18px;
+}
+.ex1{
+    width: 1045px; margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 80px;
+    background-color: #f6f5f5;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.content_txt {    
+    margin-bottom: 76px;
+}
+
+.content_txt>h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.39;
+    color: #dc3545;
+}
+
+.content_txt>p {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.72px;
+    color: #424d59;    
+
+    white-space:pre-line;
+}
+
+.content_img {        
+    display: flex;
+    justify-content: space-between;    
+}
+
+.content_img>p{
+    width: 32%;
+}
+
+.content_img>p>img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+.content_img>p>img:hover{   /* hover:마우스 커서를 올릴때 */
+    filter: grayscale(0%);   /* 회색  */
+    opacity: 0.5;             /* 투명도 */
+}
